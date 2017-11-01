@@ -5,6 +5,8 @@ An RPM spec file build and alt-install Python 3.6.3 on RHEL.
 
 To Build:
 
+`mkdir -p ~/rpmbuild/{BUILD,BUILDROOT,RPMS,SOURCES,SPECS,SRPMS}`
+
 `sudo yum -y install rpmdevtools && rpmdev-setuptree`
 
 `sudo yum -y install tk-devel tcl-devel expat-devel db4-devel gdbm-devel sqlite-devel bzip2-devel openssl-devel ncurses-devel readline-devel`
