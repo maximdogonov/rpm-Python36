@@ -16,3 +16,5 @@ To Build:
 `wget https://www.python.org/ftp/python/3.6.3/Python-3.6.3.tgz -O ~/rpmbuild/SOURCES/Python-3.6.3.tgz`
 
 `rpmbuild -bb ~/rpmbuild/SPECS/python363.spec`
+
+`yum --nogpgcheck localinstall rpmbuild/RPMS/x86_64/python36-3.6.3-1.x86_64.rpm rpmbuild/RPMS/python36-devel-3.6.3-1.x86_64.rpm`
